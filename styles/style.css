@@ -1,0 +1,12 @@
+.box1{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+.content1{
+    margin-left: 80px;
+}
+#words1{
+    font-size: 35px;
+}
