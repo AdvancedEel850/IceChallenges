@@ -1,11 +1,43 @@
 body{
-    background-color: black;
-}
-main{
     background-color: white;
-    margin-left: 45%;
-    margin-right: 65%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 1600px;
+}
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.grid img{
+    width: 100%;
+}
+.grid div{
+    display: block;
+    margin: auto;
+}
+.grid div h1{
+    font-size: 45px;
+    color:blue;
+    font-weight: none;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.grid div p{
+    padding-bottom:50px;
+}
+.grid div form .input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgba(124, 124, 124,.1);
+    border: none;
+}
+.grid div form .submit{
+    border-radius: 5px;
+    font-size: 18px;
+    width: 239.2px;
+    height: 40.8px;
+    border: none;
+    background-color: rgb(59, 59, 172);
+    color: white;
 }
